@@ -1,11 +1,14 @@
 <html>
 <head>
-     Create Post
+     <title>Create Post</title>
+     <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
 
 <body>
 <center>
-     <form name="postCreation" action ="CreatePost.php" method="post">
+    <center>
+        <h1>Create Post:</h1><br>
+        <form name="postCreation" action ="CreatePosts.php" method="post">
 
           <fieldset>
                <legend>Enter username</legend>
@@ -17,6 +20,7 @@
                <input name="post" type="text" required="requried" id="newPost" placeholder="Post">
 
           </fieldset>
+
 
           <button type="submit" value="Submit">Submit</button>
      </form>

@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title> Create User </title>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <center>
+        <h1> Enter Username: </h1>
+
+        <form name="userCreationForm" action ="CreateUser.php" method="post">
+
+        <fieldset>
+        <legend>Enter desired username</legend>
+          <label>Username:</label>
+          <input name="username" type="text" required="requried" id="userName" placeholder="Username">
+        </fieldset>
+
+        <button type="submit" value="Submit">Submit</button>
+        </form>
+        <button onclick='window.history.back();'>Back</button>
+    </center>
+    </body>
+</html>

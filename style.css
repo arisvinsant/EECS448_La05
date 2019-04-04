@@ -1,0 +1,31 @@
+p
+{
+    background-color: #86a1e0;
+    color: #2b183a;
+    font-family: Times;
+    font-size: 16pt;
+}
+
+body
+{
+
+    background-color: silver;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+a
+{
+    color: purple;
+}
+
+a:hover
+{
+    color: blue;
+}
+
+p.extraSpecial
+{
+    color: white;
+    background-color: black;
+}
